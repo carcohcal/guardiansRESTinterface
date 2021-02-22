@@ -23,7 +23,7 @@ import lombok.Data;
 public class AllowedShift {
 	@Id
 	@GeneratedValue(
-		strategy = GenerationType.IDENTITY
+		strategy = GenerationType.AUTO
 	)
 	@NotNull
 	private Integer id;
